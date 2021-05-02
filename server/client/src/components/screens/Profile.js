@@ -57,7 +57,8 @@ const Profile  = ()=>{
         setImage(file)
     }
    return (
-       <div style={{maxWidth:"550px",margin:"0px auto"}}>
+       <body>
+       <div style={{ maxWidth: "550px", margin: "0px auto"}}>
            <div style={{
               margin:"18px 0px",
                borderBottom:"1px solid grey"
@@ -109,6 +110,7 @@ const Profile  = ()=>{
            
            </div>
        </div>
+       </body>
    )
 }
 

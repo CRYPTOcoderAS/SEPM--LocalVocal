@@ -28,10 +28,10 @@
   width: 30%;
 }
 .home{
-  background-image: url("images/img6.jpg");
-            
-            width: 100%;
-            height: 100%;   
+  /* background-image: url("images/img6.jpg"); */
+  background-image: linear-gradient( #EDEDED,#26a69956,#EDEDED,#26a69956);
+  width: 100%;
+  height: 100%;   
   
   
 }
@@ -39,7 +39,7 @@
   
   max-width: 500px;
   height: max-content;
-  margin: 26px auto;
+  margin: 0px auto;
   background-color: rgb(38 166 154 / 26%);
 }
 .collection-item{
